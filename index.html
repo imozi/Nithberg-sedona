@@ -18,32 +18,46 @@
 
 </header>
 <main class="container">
-  <section class="intro">
-<h1>Welcome to the gorgeous Sedona</h1>
-<p>Because the Grand Canyon sucks!</p>
-  </section>
+  <img src="./img/background.jpg" width="700" height="300" alt="Welcome to the gorgeous Sedona">
   <article class="main-content">
     <h2 class="visualy-hidden">Преимущества города</h2>
-    <h2>Седона — небольшой городок в аризоне, заслуживающий большего!</h2>
-    <h3>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h3>
+    <h3>Седона — небольшой городок в аризоне, заслуживающий большего!</h3>
+    <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 <ul class="future-list">
-<li class="future-item"><b>НАСТОЯЩИЙ ГОРОДОК</b><br> — №1 — <br>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</li>
-<li class="future-item"><b>Жилье</b><br> Рекомендуем пожить в настоящем мотеле, все как в кино!</li>
-<li class="future-item"><b>ЕДА</b><br> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</li>
-<li class="future-item"><b>СУВЕНИРЫ</b><br> Не только китайского, но и местного производства!</li>
-<li class="future-item"><b>ТАМ ЕСТЬ Мост дьявола</b><br> — №2 —<br> Да, по нему можно пройти! Если конечно вы осмелитесь</li>
-<li class="future-item"><b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b><br> — №3 —<br> ВСЕ достопримечательности находятся очень близко</li>
-<li class="future-item"><b>КРАСИВАЯ ДОРОГА</b><br> — №4 —<br> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</li>
-<li class="future-item"><b>МАЛО ТУРИСТОВ</b><br> — №5 —<br> Большинство едет в гранд каньон и толпится там</li>
+<li class="future-item"><h3>НАСТОЯЩИЙ ГОРОДОК</h3><br> — №1 — <p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p> <img src="./img/pic-future-1" width="500" height="100" alt=""></li>
+<li class="future-item"><h3>Жилье</h3><p> Рекомендуем пожить в настоящем мотеле, все как в кино!</p></li>
+<li class="future-item"><h3>ЕДА</h3><p> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p> </li>
+<li class="future-item"><h3>СУВЕНИРЫ</h3><p> Не только китайского, но и местного производства!</p></li>
+<li class="future-item"><h3><img src="./img/pic-future-2" width="500" height="100" alt=""> ТАМ ЕСТЬ Мост дьявола</h3><br> — №2 —<p> Да, по нему можно пройти! Если конечно вы осмелитесь</p></li>
+<li class="future-item"><h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3><br> — №3 —<p> ВСЕ достопримечательности находятся очень близко</p></li>
+<li class="future-item"><h3>КРАСИВАЯ ДОРОГА</h3><br> — №4 —<p> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p></li>
+<li class="future-item"><h3>МАЛО ТУРИСТОВ</h3><br> — №5 —<p> Большинство едет в гранд каньон и толпится там</p></li>
 </ul>
   </article>
   <section class="search">
     <h2 class="visualy-hidden">Поиск гостиницы</h2>
-<h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-<h3>Укажите предполагаемые даты поездки,
+<h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+<p>Укажите предполагаемые даты поездки,
 и мы покажем вам лучшие предложения гостиниц в седоне
-</h3>
-<a class="search-btn" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+</p>
+<button class="search-btn">ПОИСК ГОСТИНИЦЫ В седоне</button>
+<form action="#" method="GET">
+  <label for="check-in">Дата заезда:
+  <input type="text" id="check-in">
+  </label>
+  <label for="check-out">Дата выезда:
+    <input type="text" id="check-out">
+  </label>
+  <label for="adult">
+    Взрослые:
+    <input type="text" id="adult">
+  </label>
+  <label for="children">
+    Дети:
+    <input type="text" id="children">
+  </label>
+  <input type="button" value="Найти">
+</form>
   </section>
   <section class="map">
     <h2 class="visualy-hidden">Карта</h2>
