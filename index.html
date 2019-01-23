@@ -19,21 +19,21 @@
 </header>
 <main class="container">
   <img src="./img/background.jpg" width="700" height="300" alt="Welcome to the gorgeous Sedona">
-  <article class="main-content">
+  <section class="main-content">
     <h2 class="visualy-hidden">Преимущества города</h2>
     <h3>Седона — небольшой городок в аризоне, заслуживающий большего!</h3>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 <ul class="future-list">
-<li class="future-item"><h3>НАСТОЯЩИЙ ГОРОДОК</h3><br> — №1 — <p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p> <img src="./img/pic-future-1" width="500" height="100" alt=""></li>
+<li class="future-item"><h3>НАСТОЯЩИЙ ГОРОДОК</h3> <span> — №1 — </span>><p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p> <img src="./img/pic-future-1" width="500" height="100" alt="Picture"></li>
 <li class="future-item"><h3>Жилье</h3><p> Рекомендуем пожить в настоящем мотеле, все как в кино!</p></li>
 <li class="future-item"><h3>ЕДА</h3><p> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p> </li>
 <li class="future-item"><h3>СУВЕНИРЫ</h3><p> Не только китайского, но и местного производства!</p></li>
-<li class="future-item"><h3><img src="./img/pic-future-2" width="500" height="100" alt=""> ТАМ ЕСТЬ Мост дьявола</h3><br> — №2 —<p> Да, по нему можно пройти! Если конечно вы осмелитесь</p></li>
-<li class="future-item"><h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3><br> — №3 —<p> ВСЕ достопримечательности находятся очень близко</p></li>
-<li class="future-item"><h3>КРАСИВАЯ ДОРОГА</h3><br> — №4 —<p> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p></li>
-<li class="future-item"><h3>МАЛО ТУРИСТОВ</h3><br> — №5 —<p> Большинство едет в гранд каньон и толпится там</p></li>
+<li class="future-item"><h3><img src="./img/pic-future-2" width="500" height="100" alt="Picture"> ТАМ ЕСТЬ Мост дьявола</h3><br> — №2 —<p> Да, по нему можно пройти! Если конечно вы осмелитесь</p></li>
+<li class="future-item"><h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3><span>— №3 —</span><p> ВСЕ достопримечательности находятся очень близко</p></li>
+<li class="future-item"><h3>КРАСИВАЯ ДОРОГА</h3><span> — №4 —</span><p> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p></li>
+<li class="future-item"><h3>МАЛО ТУРИСТОВ</h3><span> — №5 —</span><p> Большинство едет в гранд каньон и толпится там</p></li>
 </ul>
-  </article>
+  </section>
   <section class="search">
     <h2 class="visualy-hidden">Поиск гостиницы</h2>
 <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
@@ -42,20 +42,25 @@
 </p>
 <button class="search-btn">ПОИСК ГОСТИНИЦЫ В седоне</button>
 <form action="#" method="GET">
-  <label for="check-in">Дата заезда:
+  <p><label for="check-in">Дата заезда:
   <input type="text" id="check-in">
-  </label>
-  <label for="check-out">Дата выезда:
+  </label></p>
+
+  <p><label for="check-out">Дата выезда:
     <input type="text" id="check-out">
-  </label>
-  <label for="adult">
-    Взрослые:
+  </label></p>
+  <p><label for="adult">
+    Взрослые:</label>
+    <button class="minuse-value" >-</button>
     <input type="text" id="adult">
-  </label>
+    <button class="plus-value">+</button>
+  
   <label for="children">
-    Дети:
+    Дети:</label>
+    <button class="minuse-value">-</button>
     <input type="text" id="children">
-  </label>
+    <button class="plus-value">+</button>
+ </p>
   <input type="button" value="Найти">
 </form>
   </section>
